@@ -57,7 +57,7 @@ function fibSolution1(n) {
     return result[n];
 }
 
-const fib = memoize(slowFib);
+ const fib = memoize(slowFib);
 
 
 module.exports = fib;
